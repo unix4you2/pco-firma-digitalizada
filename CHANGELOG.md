@@ -8,6 +8,12 @@ y este proyecto se adhiere al [Versionado Semántico](https://semver.org/lang/es
 ## [1.2.0] - 2025-09-18
 
 ### ✨ Añadido
+- **Información de llave** Se presenta la información de la llave o documento recibido como parámetro en la parte superior
+- **Cambio de pincel** Se aumenta el grosor del pincel para hacer más consistente la firma al redimensionar
+
+## [1.2.0] - 2025-09-18
+
+### ✨ Añadido
 - **Canvas maximizado** que ocupa 85-90% de la altura de pantalla y 95% del ancho
 - **Cálculo dinámico del tamaño** del canvas basado en dimensiones de viewport
 - **Redimensionado automático** del canvas al cambiar el tamaño de ventana
