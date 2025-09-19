@@ -22,6 +22,14 @@ Ideal para integrarse en flujos de trabajo de documentos digitales, formularios 
 
 ---
 
+## Requisitos
+
+- Navegador con soporte HTML5, JavaScript y canvas.
+- No requiere servidor — aplicación 100% client-side.
+- Conexión a internet (a menos que se haga un despliegue en red local)
+
+---
+
 ## 🚀 Uso
 
 1. Sube los archivos del proyecto a tu servidor web (o usa GitHub Pages).
@@ -40,3 +48,24 @@ Puede requerir que en tu endpoint encargado de almacenar la firma final agregues
 ó 
 
 `header("Access-Control-Allow-Origin: *"); //Más inseguro`
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Para contribuir:
+
+- Hacer fork del proyecto.
+- Crear una rama nueva para tus cambios.
+- Enviar pull requests con descripciones claras.
+- Reportar issues y bugs en el repositorio.
+
+## Licencia
+
+Ver archivo LICENSE para detalles.
+
+---
+
+#### Soporte y donaciones al proyecto
+
+Si encuentra útil este proyecto y deseas contribuir al desarrollo del mismo puede apoyarnos con un valor voluntario.
+
+💵 Usando GitHub Sponsors para tus [Donaciones](https://github.com/sponsors/unix4you2/)
