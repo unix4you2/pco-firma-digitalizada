@@ -2,7 +2,7 @@
 
 Este es un proyecto derivado de [Práctico Framework](https://www.practico.org) articulable como plugin o complemento
 
-Pruébalo en línea directamente en [Este enlace]([https://visor-kml.practico.run/](https://unix4you2.github.io/pco-firma-digitalizada/)). Si se requiere implementación directa desde otro sistema revise la sección de "Uso" más adelante.
+Pruébalo en línea directamente en [Este enlace](https://unix4you2.github.io/pco-firma-digitalizada/). Si se requiere implementación directa desde otro sistema revise la sección de "Uso" más adelante.
 
 Una herramienta web simple, ligera y moderna que permite a los usuarios o sistemas capturar su firma manuscrita (mediante ratón, touchpad o tableta digitalizadora) en un lienzo HTML5 Canvas, redimensionarla automáticamente a las dimensiones estándar de 250x83 píxeles conservando proporciones, y enviarla como archivo JPG a un endpoint de servidor especificado.
 
