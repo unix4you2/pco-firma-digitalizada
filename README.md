@@ -1,4 +1,8 @@
-# pco-firma-digitalizada
+# ![](https://github.com/unix4you2/practico/raw/master/img/logo.png) Firma digitalizada
+
+Este es un proyecto derivado de [Práctico Framework](https://www.practico.org) articulable como plugin o complemento
+
+Pruébalo en línea directamente en [Este enlace](https://visor-kml.practico.run/). Si se requiere implementación directa desde otro sistema revise la sección de "Uso" más adelante.
 
 Una herramienta web simple, ligera y moderna que permite a los usuarios o sistemas capturar su firma manuscrita (mediante ratón, touchpad o tableta digitalizadora) en un lienzo HTML5 Canvas, redimensionarla automáticamente a las dimensiones estándar de 250x83 píxeles conservando proporciones, y enviarla como archivo JPG a un endpoint de servidor especificado.
 
@@ -26,10 +30,6 @@ Ideal para integrarse en flujos de trabajo de documentos digitales, formularios 
 2.a. Reemplace XXXXXXX por el documento o llave unica que necesita su sistema para guardar finalmente la captura
 
 2.b. Asegurese de codificar su URL de endpoint antes de enviarla como parametro, Ejemplo de encodeURIComponent("https://servidor.tudominio.com/erp/sig/endpoint.php") Sería: servidor=https%3A%2F%2Fnombrehost.tudominio.com%2Ferp%2Fsig%2Fendpoint.php
-
-
-
-
 
 
 ## IMPORTANTE
