@@ -5,7 +5,7 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto se adhiere al [Versionado Semántico](https://semver.org/lang/es/).
 
-## [1.2.0] - 2025-09-18
+## [1.2.1] - 2025-09-19
 
 ### ✨ Añadido
 - **Información de llave** Se presenta la información de la llave o documento recibido como parámetro en la parte superior
