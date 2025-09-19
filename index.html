@@ -124,6 +124,7 @@
         #finalizeBtn {
             background-color: #3498db;
             color: white;
+            display:none;
         }
         
         #saveBtn {
@@ -428,8 +429,9 @@
         // Guardar y enviar la firma
         function saveSignature() {
             if (!window.finalSignatureCanvas) {
-                statusElement.textContent = "Por favor, finalice la firma primero.";
-                return;
+                finalizeSignature();
+                //statusElement.textContent = "Por favor, finalice la firma primero.";
+                //return;
             }
             
             // Convertir a JPEG
