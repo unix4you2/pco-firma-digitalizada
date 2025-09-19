@@ -21,7 +21,15 @@ Ideal para integrarse en flujos de trabajo de documentos digitales, formularios 
 ## 🚀 Uso
 
 1. Sube los archivos del proyecto a tu servidor web (o usa GitHub Pages).
-2. Accede a la página con los parámetros `documento` y `servidor` en la URL:
+2. Accede a la página con los parámetros `documento` y `servidor` en la URL:  https://unix4you2.github.io/pco-firma-digitalizada/?documento=XXXXXXX&servidor=https%3A%2F%2Fnombrehost.tudominio.com%2Ferp%2Fsig%2Fendpoint.php
+
+2.a. Reemplace XXXXXXX por el documento o llave unica que necesita su sistema para guardar finalmente la captura
+
+2.b. Asegurese de codificar su URL de endpoint antes de enviarla como parametro, Ejemplo de encodeURIComponent("https://servidor.tudominio.com/erp/sig/endpoint.php") Sería: servidor=https%3A%2F%2Fnombrehost.tudominio.com%2Ferp%2Fsig%2Fendpoint.php
+
+
+
+
 
 
 ## IMPORTANTE
