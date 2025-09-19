@@ -43,11 +43,17 @@ Ideal para integrarse en flujos de trabajo de documentos digitales, formularios 
 ## IMPORTANTE
 
 Puede requerir que en tu endpoint encargado de almacenar la firma final agregues un  
-`header("Access-Control-Allow-Origin: https://unix4you2.github.io");`
+`header("Access-Control-Allow-Origin: https://unix4you2.github.io");`  ó  `header("Access-Control-Allow-Origin: *"); //Más inseguro`
 
-ó 
+Así pues, a manera de ejemplu su endpoint podría ser algo como:
 
-`header("Access-Control-Allow-Origin: *"); //Más inseguro`
+``
+header("Access-Control-Allow-Origin: https://unix4you2.github.io"); //Posible * en lugar del dominio, aunque mas inseguro
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], "archivo.jpg"))
+  echo "[OK] Archivo almacenado en el servidor";
+else
+  echo "[ERROR] En archivo (origen/destino)";
+``
 
 ## Contribuciones
 
